@@ -129,6 +129,20 @@
       {
         "tag": "A",
         "cls": "",
+        "w": 201,
+        "h": 25,
+        "text": "www.celebratemark.life"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 149,
+        "h": 25,
+        "text": "Hartford Courant"
+      },
+      {
+        "tag": "A",
+        "cls": "",
         "w": 140,
         "h": 40,
         "text": "(860) 379-2469"
@@ -194,6 +208,13 @@
         "w": 93,
         "h": 25,
         "text": "RSVP form"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 163,
+        "h": 23,
+        "text": "Directions are here."
       },
       {
         "tag": "A",
@@ -450,6 +471,20 @@
         "w": 233,
         "h": 38,
         "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 201,
+        "h": 25,
+        "text": "www.celebratemark.life"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 149,
+        "h": 25,
+        "text": "Hartford Courant"
       },
       {
         "tag": "A",
@@ -786,6 +821,20 @@
       {
         "tag": "A",
         "cls": "",
+        "w": 201,
+        "h": 25,
+        "text": "www.celebratemark.life"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 149,
+        "h": 25,
+        "text": "Hartford Courant"
+      },
+      {
+        "tag": "A",
+        "cls": "",
         "w": 322,
         "h": 25,
         "text": "send it on the Share a memory "
@@ -996,7 +1045,7 @@
     "overflow": false,
     "scrollWidth": 320,
     "innerWidth": 320,
-    "smallTargets": 2
+    "smallTargets": 3
   },
   "320:share.html": {
     "overflow": false,
@@ -1044,7 +1093,7 @@
     "overflow": false,
     "scrollWidth": 1920,
     "innerWidth": 1920,
-    "smallTargets": 3
+    "smallTargets": 5
   },
   "1920:share.html": {
     "overflow": false,
