@@ -1,7 +1,7 @@
 # celebratemark.life
 
 The website for the Celebration of Life for Mark Charles Gustafson.
-Saturday, October 10, 2026 at 11:00 AM, Peoples State Forest picnic shelter, Barkhamsted, CT.
+Saturday, October 10, 2026 at 11:00 AM, the pavilion at Peoples Forest, Barkhamsted, CT.
 
 It is plain HTML, CSS, and a little JavaScript. There is nothing to install or build.
 GitHub Pages serves it at https://celebratemark.life.

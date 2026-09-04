@@ -45,15 +45,15 @@ getting people there and holding them well once they arrive.
 
 **The event (confirmed by the family):**
 - Saturday, October 10, 2026, beginning at 11:00 AM.
-- Peoples State Forest picnic shelter, East River Road, Pleasant Valley section of
+- the pavilion at Peoples Forest, East River Road, Pleasant Valley section of
   Barkhamsted, CT 06063. GPS 41.92333, -72.99833. Park phone (860) 379-2469.
 - Directions from Route 44: take Route 318 in Barkhamsted, cross the steel bridge over
   the Farmington River, immediate left onto East River Road, recreation area about one
   mile up on the left.
-- Shelter: covered 30 x 60 ft pavilion, seats about 100, 10 picnic tables, a large
+- Pavilion: covered 30 x 60 ft pavilion, seats about 100, 10 picnic tables, a large
   fireplace (not for cooking). Flush restrooms and drinking water taps on site;
-  restrooms about 150 ft from the shelter, parking about 150 ft.
-- Park rules (from CT DEEP / ReserveAmerica): shelter use until a half hour before
+  restrooms about 150 ft from the pavilion, parking about 150 ft.
+- Park rules (from CT DEEP / ReserveAmerica): pavilion use until a half hour before
   sunset; no amplified music; no bounce houses; no generators; no personal or caterer
   vehicles up to the pavilion (handicap vehicles by advance arrangement with the park);
   pets on leash. Parking: free for Connecticut-plated cars; out-of-state plates $15
