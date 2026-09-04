@@ -1,0 +1,145 @@
+{
+  "title": "Choose the visual world for celebratemark.life",
+  "question": "The roll assigned The Zone Chart. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Zone Chart",
+      "kicker": "THE ROLL",
+      "lineage": "Tune-and-balance zone charts: the as-built drawings Mark delivered on every Sonipoint job",
+      "thesis": "The day drawn as a plan: tinted zones, plain labels, one level number each, leader lines, nothing loud.",
+      "palette": ["#1c211e", "#f7f5ef", "#9fc0d3", "#b9cfb5", "#d9a56f"],
+      "materials": ["vellum ground", "plotter linework", "tinted zone fills"],
+      "viewport": "A drawn site plan of the shelter grounds with the Farmington River running through it. One dark inverted field carries Saturday, October 10, 11 AM, with two big buttons: Directions and Add to calendar. Below the fold, the plan draws itself section by section as you scroll.",
+      "risk": "If the zones read as a literal floor plan, older visitors may hunt for a map key instead of the date; every label has to be a plain word.",
+      "raised": [
+        { "from": "depot blind", "raise": "Rank is inversion: only the date field prints dark on the pale sheet." },
+        { "from": "split-flap board", "raise": "The day's schedule is ruled rows with fixed columns; nothing floats." },
+        { "from": "multiplane cel dawn", "raise": "Every word sits on its own clear layer; text never lands on texture or fill edges." },
+        { "from": "sneaker box wall", "raise": "One label grid rules every lodging entry: name, town and minutes, phone." },
+        { "from": "bebop title card", "raise": "On the phone the active section floods its tint full-bleed behind its heading." },
+        { "from": "futurist bolted book", "raise": "The date is the largest type on the page; the first viewport is not timid." }
+      ],
+      "wireframe": {"cols":12,"rows":10,"regions":[
+        {"label":"site plan (river, road, shelter)","x":0,"y":0,"w":12,"h":5},
+        {"label":"Sat Oct 10 · 11 AM (inverted)","x":0,"y":5,"w":12,"h":2,"accent":true},
+        {"label":"Directions","x":0,"y":7,"w":6,"h":1,"accent":true},
+        {"label":"Add to calendar","x":6,"y":7,"w":6,"h":1},
+        {"label":"Peoples State Forest picnic shelter, Barkhamsted CT","x":0,"y":8,"w":12,"h":2}
+      ]}
+    },
+    {
+      "id": "model-pick",
+      "label": "The Routed Park Sign",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Connecticut DEEP routed wooden trail signs: brown board, cream letters, an arrow and a distance",
+      "thesis": "The site is the trailhead kiosk you will walk past on the day.",
+      "palette": ["#4a3a2a", "#f1e6c8", "#2f5d3a", "#c9782e"],
+      "materials": ["routed pine board", "cream enamel", "blaze paint"],
+      "viewport": "A brown board with cream routed letters: Saturday, October 10, 11 AM, an arrow, and a distance, standing in front of a painted ridge of October pines.",
+      "risk": "The most familiar answer for a forest memorial; a run in this category would plausibly land here on its own.",
+      "wireframe": {"cols":12,"rows":10,"regions":[
+        {"label":"routed sign: date, time, arrow","x":1,"y":1,"w":10,"h":5,"accent":true},
+        {"label":"Directions","x":1,"y":6,"w":5,"h":1,"accent":true},
+        {"label":"Add to calendar","x":6,"y":6,"w":5,"h":1},
+        {"label":"painted ridge","x":0,"y":7,"w":12,"h":3}
+      ]}
+    },
+    {
+      "id": "challenger-cel-dawn",
+      "label": "Multiplane Cel Dawn",
+      "verdict": "competitive",
+      "lineage": "multiplane cel animation: painted forest planes sliding at different speeds toward a lit cottage",
+      "thesis": "A painted October morning on the river you sink through toward the lit shelter.",
+      "palette": ["#3b4a3a", "#8fa3a8", "#2a1d14", "#e2a64a"],
+      "materials": ["gouache planes", "mist cel", "lamp amber"],
+      "viewport": "Five painted planes: far ridge, pines, birches, river, shelter with one lamp lit; the date on its own clear cel over the nearest plane.",
+      "case": "Wins the audience axis: a forest morning with a lamp lit at the shelter is exactly the place. Loses clarity: parallax and rack focus under older eyes, and the date competes with a painting.",
+      "risk": "Beautiful and slow to read; the painting can win and the facts can lose.",
+      "hero": "https://impeccable.style/worlds/cards/cinema-cinematography-editing-multiplane-cel-dawn-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/cinema-cinematography-editing-multiplane-cel-dawn.webp"
+    },
+    {
+      "id": "challenger-split-flap",
+      "label": "Split-flap Board",
+      "verdict": "competitive",
+      "lineage": "rail concourse departure boards",
+      "thesis": "When and where as ruled rows on one board that everyone reads at once.",
+      "palette": ["#141414", "#f2f2f2", "#8c8c8c", "#e0a030"],
+      "materials": ["matte flap faces", "brushed steel frame"],
+      "viewport": "One board: SAT OCT 10 · 11:00 AM · PEOPLES STATE FOREST · EAST RIVER ROAD, then rows for directions, lodging, memories.",
+      "case": "Holds the clarity axis completely: fixed columns carry the facts. Loses audience: the concourse clack belongs to travelers, not to a family in a forest.",
+      "risk": "Reads as a train station; the cascade motion is noise to a grieving reader.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-split-flap-concourse-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/signals-instruments-split-flap-concourse.webp"
+    },
+    {
+      "id": "challenger-depot-blind",
+      "label": "Depot Destination Blind",
+      "verdict": "declined",
+      "lineage": "bus depot roller blinds",
+      "thesis": "Stacked cloth courses stepping under one window.",
+      "palette": ["#1f4d2e", "#f2c318", "#efe7d6"],
+      "materials": ["dyed duck cloth", "chrome-yellow legend"],
+      "viewport": "One window showing one legend at a time.",
+      "case": "Nobody at this gathering identifies with a bus blind, and one-legend-at-a-time hides the facts.",
+      "kept": "Rank is inversion: one dark field only.",
+      "risk": "Reads as transit signage.",
+      "hero": "https://impeccable.style/worlds/cards/operate-c-depot-blind-courses-hero.webp"
+    },
+    {
+      "id": "challenger-sneaker",
+      "label": "Sneaker Box Wall",
+      "verdict": "declined",
+      "lineage": "stacked sneaker boxes with end labels",
+      "thesis": "Every section a box you pull from a stack.",
+      "palette": ["#b8561e", "#111111", "#f5f0e8"],
+      "materials": ["box board", "tissue"],
+      "viewport": "A wall of end labels.",
+      "case": "Wrong audience and wrong tone; the lid hinge hides content behind interaction.",
+      "kept": "One label grid rules every entry.",
+      "risk": "Reads as retail.",
+      "hero": "https://impeccable.style/worlds/cards/textiles-weave-drape-fashion-sneaker-box-stacks-hero.webp"
+    },
+    {
+      "id": "challenger-bebop",
+      "label": "Bebop Title Card",
+      "verdict": "declined",
+      "lineage": "jazz-anime title frames",
+      "thesis": "Hard cuts, colliding caps, flooded color fields.",
+      "palette": ["#d9a52a", "#9a3b2b", "#2a7a7c", "#efe6d2"],
+      "materials": ["flat cel color", "print grain"],
+      "viewport": "A freeze-frame title.",
+      "case": "Too loud for grief and hard for older readers; deliberate letter collisions fight legibility.",
+      "kept": "One field floods behind the active title.",
+      "risk": "Reads as a show poster.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-bebop-title-card-hero.webp"
+    },
+    {
+      "id": "challenger-futurist",
+      "label": "Futurist Bolted Book",
+      "verdict": "declined",
+      "lineage": "machine-bound futurist typography",
+      "thesis": "Wood type at engine speed.",
+      "palette": ["#efe6cf", "#111111", "#c8281e"],
+      "materials": ["wood type", "aluminum bolts"],
+      "viewport": "Angled shouting type.",
+      "case": "Shouting is the opposite of what this family asked for; angled type fails older eyes.",
+      "kept": "Type scale courage: the date is the biggest thing on the page.",
+      "risk": "Reads as noise.",
+      "hero": "https://impeccable.style/worlds/cards/design-canon-futurist-bolted-book-hero.webp"
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "buildPath": { "value": "code", "toggle": false },
+  "canon": true,
+  "canonCard": {
+    "label": "The memorial template",
+    "thesis": "What funeral-home sites ship, executed impeccably.",
+    "palette": ["#ffffff", "#333333", "#7a8fa6"],
+    "materials": ["soft photo vignette", "serif heading", "candle icon"],
+    "viewport": "Portrait, name, dates, a paragraph, an event card.",
+    "risk": "Indistinguishable from any obituary page, by design."
+  },
+  "steer": true
+}

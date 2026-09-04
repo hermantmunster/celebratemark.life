@@ -1,0 +1,787 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-03T17:57:09+00:00",
+  "title": "Design System: Celebrate Mark",
+  "extensions": {
+    "colorMeta": {
+      "board": {
+        "role": "neutral",
+        "displayName": "Routed Board",
+        "canonical": "oklch(36.1% 0.034 66.4)",
+        "tonalRamp": [
+          "#150800",
+          "#2d1e0f",
+          "#473727",
+          "#635241",
+          "#806e5d",
+          "#9e8b79",
+          "#cdbaa7",
+          "#ffebd7"
+        ],
+        "cssVariable": "--board"
+      },
+      "board-deep": {
+        "role": "neutral",
+        "displayName": "Board Deep",
+        "canonical": "oklch(26.4% 0.027 58.8)",
+        "tonalRamp": [
+          "#130802",
+          "#2b1f15",
+          "#45372d",
+          "#615247",
+          "#7e6e62",
+          "#9c8c7f",
+          "#cbbaad",
+          "#fdebdd"
+        ],
+        "cssVariable": "--board-deep"
+      },
+      "board-edge": {
+        "role": "neutral",
+        "displayName": "Board Edge",
+        "canonical": "oklch(42.5% 0.041 66.3)",
+        "tonalRamp": [
+          "#160700",
+          "#2f1d0a",
+          "#493623",
+          "#65513d",
+          "#836d58",
+          "#a18b75",
+          "#d1b9a2",
+          "#ffead2"
+        ],
+        "cssVariable": "--board-edge"
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Cream Paint",
+        "canonical": "oklch(93.6% 0.036 87.8)",
+        "tonalRamp": [
+          "#120a00",
+          "#29210c",
+          "#423a24",
+          "#5e543e",
+          "#7a715a",
+          "#988e76",
+          "#c7bda4",
+          "#f9eed4"
+        ],
+        "cssVariable": "--cream"
+      },
+      "cream-dim": {
+        "role": "neutral",
+        "displayName": "Cream Dim",
+        "canonical": "oklch(83.9% 0.047 87.8)",
+        "tonalRamp": [
+          "#130900",
+          "#2b2003",
+          "#45391c",
+          "#605437",
+          "#7d7052",
+          "#9b8e6f",
+          "#cabd9c",
+          "#fcedcb"
+        ],
+        "cssVariable": "--cream-dim"
+      },
+      "cream-hover": {
+        "role": "neutral",
+        "displayName": "Cream Hover",
+        "canonical": "oklch(97.4% 0.034 90.5)",
+        "tonalRamp": [
+          "#110a00",
+          "#28210d",
+          "#413a26",
+          "#5c5540",
+          "#79715b",
+          "#978f78",
+          "#c6bda5",
+          "#f7eed5"
+        ],
+        "note": "Literal value reused in styles.css; not a custom property."
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Notice Paper",
+        "canonical": "oklch(95.8% 0.018 89.4)",
+        "tonalRamp": [
+          "#0e0b04",
+          "#252118",
+          "#3e3a30",
+          "#59554a",
+          "#767166",
+          "#938f83",
+          "#c2bdb1",
+          "#f3eee1"
+        ],
+        "cssVariable": "--paper"
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Paper 2",
+        "canonical": "oklch(92.0% 0.027 87.9)",
+        "tonalRamp": [
+          "#100a01",
+          "#272112",
+          "#403a2b",
+          "#5b5545",
+          "#787160",
+          "#968f7d",
+          "#c5bdab",
+          "#f6eedb"
+        ],
+        "cssVariable": "--paper-2"
+      },
+      "paper-sheet": {
+        "role": "neutral",
+        "displayName": "Paper Sheet",
+        "canonical": "oklch(98.8% 0.014 88.7)",
+        "tonalRamp": [
+          "#0d0b05",
+          "#24211a",
+          "#3d3a32",
+          "#58554d",
+          "#757169",
+          "#928f86",
+          "#c1bdb4",
+          "#f2eee4"
+        ],
+        "note": "Literal value reused in styles.css; not a custom property."
+      },
+      "paper-field": {
+        "role": "neutral",
+        "displayName": "Paper Field",
+        "canonical": "oklch(99.4% 0.008 91.5)",
+        "tonalRamp": [
+          "#0c0b07",
+          "#23221d",
+          "#3c3a36",
+          "#575550",
+          "#73716c",
+          "#918f8a",
+          "#bfbeb8",
+          "#f0eee8"
+        ],
+        "note": "Literal value reused in styles.css; not a custom property."
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "oklch(80.8% 0.046 87.2)",
+        "tonalRamp": [
+          "#130900",
+          "#2b2004",
+          "#45391d",
+          "#605437",
+          "#7d7053",
+          "#9b8e6f",
+          "#cabc9d",
+          "#fcedcc"
+        ],
+        "cssVariable": "--rule"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(22.2% 0.014 72.1)",
+        "tonalRamp": [
+          "#0f0a05",
+          "#26211a",
+          "#3f3933",
+          "#5a544d",
+          "#777069",
+          "#958e86",
+          "#c3bcb4",
+          "#f4ede5"
+        ],
+        "cssVariable": "--ink"
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2",
+        "canonical": "oklch(39.0% 0.023 69.8)",
+        "tonalRamp": [
+          "#110903",
+          "#292016",
+          "#42392e",
+          "#5e5348",
+          "#7a7064",
+          "#988d81",
+          "#c8bcaf",
+          "#f9ecdf"
+        ],
+        "cssVariable": "--ink-2"
+      },
+      "pine": {
+        "role": "secondary",
+        "displayName": "Pine",
+        "canonical": "oklch(43.5% 0.077 150.0)",
+        "tonalRamp": [
+          "#001300",
+          "#002b0b",
+          "#164524",
+          "#33613e",
+          "#507e59",
+          "#6d9d76",
+          "#9bcca4",
+          "#cbfed4"
+        ],
+        "cssVariable": "--pine"
+      },
+      "pine-deep": {
+        "role": "secondary",
+        "displayName": "Pine Deep",
+        "canonical": "oklch(33.5% 0.056 152.1)",
+        "tonalRamp": [
+          "#001101",
+          "#072913",
+          "#22432c",
+          "#3d5e46",
+          "#597b61",
+          "#769a7e",
+          "#a3c9ac",
+          "#d3fadc"
+        ],
+        "cssVariable": "--pine-deep"
+      },
+      "pine-hover": {
+        "role": "secondary",
+        "displayName": "Pine Hover",
+        "canonical": "oklch(49.6% 0.085 152.6)",
+        "tonalRamp": [
+          "#001300",
+          "#002c0a",
+          "#084723",
+          "#2a633e",
+          "#488059",
+          "#669e76",
+          "#94cea3",
+          "#c4ffd3"
+        ],
+        "note": "Literal value reused in styles.css; not a custom property."
+      },
+      "pine-tint": {
+        "role": "secondary",
+        "displayName": "Pine Tint",
+        "canonical": "oklch(92.1% 0.019 137.8)",
+        "tonalRamp": [
+          "#070d06",
+          "#1d241b",
+          "#363d33",
+          "#50584e",
+          "#6c746a",
+          "#8a9287",
+          "#b8c1b5",
+          "#e9f2e6"
+        ],
+        "cssVariable": "--pine-tint"
+      },
+      "pine-tint-edge": {
+        "role": "secondary",
+        "displayName": "Pine Tint Edge",
+        "canonical": "oklch(82.3% 0.035 141.2)",
+        "tonalRamp": [
+          "#040f03",
+          "#182616",
+          "#303f2e",
+          "#4b5a48",
+          "#677764",
+          "#849581",
+          "#b2c4af",
+          "#e2f5df"
+        ],
+        "note": "Literal value reused in styles.css; not a custom property."
+      },
+      "blaze": {
+        "role": "primary",
+        "displayName": "Blaze",
+        "canonical": "oklch(64.8% 0.133 58.8)",
+        "tonalRamp": [
+          "#290000",
+          "#470300",
+          "#652400",
+          "#844000",
+          "#a45d19",
+          "#c57b3c",
+          "#f7aa6c",
+          "#ffdb9c"
+        ],
+        "cssVariable": "--blaze"
+      },
+      "blaze-deep": {
+        "role": "primary",
+        "displayName": "Blaze Deep",
+        "canonical": "oklch(55.9% 0.121 57.1)",
+        "tonalRamp": [
+          "#2a0000",
+          "#470200",
+          "#662300",
+          "#854000",
+          "#a55d1c",
+          "#c57b3e",
+          "#f8a96e",
+          "#ffda9d"
+        ],
+        "cssVariable": "--blaze-deep"
+      },
+      "blaze-text": {
+        "role": "primary",
+        "displayName": "Blaze Text",
+        "canonical": "oklch(47.8% 0.108 55.7)",
+        "tonalRamp": [
+          "#280000",
+          "#450800",
+          "#632600",
+          "#814204",
+          "#a15f2b",
+          "#c17d4a",
+          "#f4ab78",
+          "#ffdca7"
+        ],
+        "cssVariable": "--blaze-text"
+      },
+      "blaze-tint": {
+        "role": "primary",
+        "displayName": "Blaze Tint",
+        "canonical": "oklch(92.6% 0.038 71.2)",
+        "tonalRamp": [
+          "#150800",
+          "#2d1e0c",
+          "#473724",
+          "#63523e",
+          "#806e5a",
+          "#9e8c77",
+          "#cebaa4",
+          "#ffebd4"
+        ],
+        "cssVariable": "--blaze-tint"
+      },
+      "blaze-hover": {
+        "role": "primary",
+        "displayName": "Blaze Hover",
+        "canonical": "oklch(69.6% 0.134 60.1)",
+        "tonalRamp": [
+          "#290000",
+          "#470400",
+          "#652400",
+          "#834100",
+          "#a35e16",
+          "#c47c3b",
+          "#f6ab6b",
+          "#ffdb9b"
+        ],
+        "note": "Literal value reused in styles.css; not a custom property."
+      },
+      "river": {
+        "role": "tertiary",
+        "displayName": "River",
+        "canonical": "oklch(64.9% 0.051 230.1)",
+        "tonalRamp": [
+          "#000e1c",
+          "#002635",
+          "#1b3f50",
+          "#365b6c",
+          "#52778a",
+          "#6f95a8",
+          "#9dc4d8",
+          "#cdf6ff"
+        ],
+        "cssVariable": "--river"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The date on the hero board; the largest thing on the site, used once."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "h2 and inner-page h1 (.page-title), almost always wrapped in a plank."
+      },
+      "plank": {
+        "displayName": "Plank",
+        "purpose": "Heading text inside a plank; slightly smaller than a bare headline because the wood adds weight."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "h3 and .h3: notice headings, lodging group headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Atkinson Hyperlegible prose at 18.9px on an 18px root, capped at 66ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Fact keys, field labels, plaque and chip text, nav links. Never uppercased or tracked."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "The GPS coordinates code block only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "shadow-1",
+        "cssVariable": "--shadow-1",
+        "value": "0 1px 2px rgba(31, 26, 20, 0.16), 0 8px 20px -10px rgba(31, 26, 20, 0.4)",
+        "purpose": "Sheet lift: the last-mile map figure resting on the paper."
+      },
+      {
+        "name": "shadow-2",
+        "cssVariable": "--shadow-2",
+        "value": "0 2px 4px rgba(31, 26, 20, 0.2), 0 18px 40px -16px rgba(31, 26, 20, 0.5)",
+        "purpose": "Board lift: the routed board, with its inset frame lines."
+      },
+      {
+        "name": "board-frame",
+        "value": "inset 0 0 0 3px var(--board-deep), inset 0 0 0 5px var(--board-edge)",
+        "purpose": "The routed frame of the board, combined with shadow-2."
+      },
+      {
+        "name": "plank-frame",
+        "value": "inset 0 0 0 2px var(--board-deep), inset 0 0 0 4px var(--board-edge)",
+        "purpose": "Plank headings; pine plank uses --pine-deep and #38704a. No drop shadow."
+      },
+      {
+        "name": "plaque-rest",
+        "value": "inset 0 0 0 2px rgba(74, 58, 42, 0.35), 0 3px 0 var(--board-deep), 0 8px 16px -8px rgba(0, 0, 0, 0.5)",
+        "purpose": "Every plaque at rest; pine plaques swap the base to --pine-deep."
+      },
+      {
+        "name": "plaque-pressed",
+        "value": "inset 0 0 0 2px rgba(74, 58, 42, 0.35), 0 1px 0 var(--board-deep), 0 4px 8px -6px rgba(0, 0, 0, 0.5)",
+        "purpose": "Plaque :active, with translateY(2px) scale(0.985)."
+      },
+      {
+        "name": "kiosk-edge-header",
+        "value": "0 2px 0 var(--board-deep), 0 10px 24px -14px rgba(0, 0, 0, 0.6)",
+        "purpose": "Sticky header meeting the paper; the action bar mirrors it upward."
+      },
+      {
+        "name": "kiosk-edge-footer",
+        "value": "inset 0 3px 0 var(--board-deep)",
+        "purpose": "Footer top edge."
+      },
+      {
+        "name": "route-step",
+        "value": "inset 0 0 0 2px var(--pine-deep), 0 2px 0 var(--pine-deep)",
+        "purpose": "Numbered pine badge on directions steps."
+      },
+      {
+        "name": "focus-paper",
+        "value": "outline: 3px solid var(--blaze); outline-offset: 3px; box-shadow: 0 0 0 7px var(--paper)",
+        "purpose": "Focus ring on notice paper."
+      },
+      {
+        "name": "focus-board",
+        "value": "outline: 3px solid var(--cream); outline-offset: 3px; box-shadow: 0 0 0 7px var(--board)",
+        "purpose": "Focus ring on board surfaces (header, footer, board, action bar)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "cssVariable": "--ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one curve for every transition and animation."
+      },
+      {
+        "name": "press",
+        "value": "0.14s",
+        "purpose": "Plaque and chip transform and shadow on press."
+      },
+      {
+        "name": "field-focus",
+        "value": "0.15s",
+        "purpose": "Field border and shadow on focus."
+      },
+      {
+        "name": "fill",
+        "value": "0.2s",
+        "purpose": "Background-color changes on plaques and chips; the skip link drop-in."
+      },
+      {
+        "name": "menu-in",
+        "value": "0.3s",
+        "purpose": "Mobile nav list entrance (opacity, -6px rise); FAQ icon rotation."
+      },
+      {
+        "name": "answer-in",
+        "value": "0.35s",
+        "purpose": "FAQ answer fade and -4px rise."
+      },
+      {
+        "name": "action-bar",
+        "value": "0.45s",
+        "purpose": "Phone action bar sliding up from translateY(110%)."
+      },
+      {
+        "name": "reveal",
+        "value": "0.7s",
+        "purpose": "Scroll reveal: 14px rise, once, with a 2.5s failsafe that shows everything."
+      },
+      {
+        "name": "route-in",
+        "value": "0.9s",
+        "purpose": "Hero letters wipe in via clip-path inset, staggered 0.12s to 0.7s."
+      },
+      {
+        "name": "draw",
+        "value": "2.4s (0.2s delay)",
+        "purpose": "Last-mile map path draws itself when 30% visible."
+      },
+      {
+        "name": "drift",
+        "value": "14s to 23s linear, infinite",
+        "purpose": "Ridge leaves; only while the ridge is on screen and the tab is visible."
+      },
+      {
+        "name": "mist",
+        "value": "26s ease-in-out alternate",
+        "purpose": "Ridge mist sway."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all travel removed",
+        "purpose": "prefers-reduced-motion: smooth scroll off; cut, reveal, draw, leaves, mist, bar, plaque, chip, FAQ transitions set to none; state changes remain."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-header",
+        "value": "480px",
+        "direction": "max-width",
+        "purpose": "Wordmark 1.15rem, icon 1.7rem, header 3.9rem, tighter menu toggle."
+      },
+      {
+        "name": "facts-two-col",
+        "value": "640px",
+        "direction": "min-width",
+        "purpose": "Fact rows become an 11rem key column plus value."
+      },
+      {
+        "name": "stay-two-col",
+        "value": "720px",
+        "direction": "min-width",
+        "purpose": "Lodging rows pin the call plaques to the right."
+      },
+      {
+        "name": "desktop",
+        "value": "900px",
+        "direction": "min-width",
+        "purpose": "Inline nav, wider board padding, 4rem sections, two-column summaries and life page, ridge overlap 5.5rem, action bar hidden."
+      }
+    ],
+    "layout": {
+      "rootFontSize": "18px",
+      "measure": "66ch",
+      "container": "min(100% - 2rem, 68rem)",
+      "narrow": "min(100% - 2rem, 46rem)",
+      "contentCaps": {
+        "prose": "66ch",
+        "facts": "52rem",
+        "notice": "52rem",
+        "routeList": "52rem",
+        "faq": "52rem",
+        "stay": "56rem",
+        "form": "40rem",
+        "heroPlace": "40rem"
+      },
+      "headerHeight": "4.25rem",
+      "scrollPaddingTop": "5rem",
+      "footerPhoneBottomPadding": "6.5rem"
+    },
+    "assets": {
+      "grain": "assets/grain.svg (authored fractal-noise wood wash; --grain)",
+      "ridge": "assets/ridge.jpg 1600x560 and ridge@2x.jpg (painted October ridge, the single ground picture)",
+      "icons": "inline 24-unit stroke SVGs, stroke 2 to 2.4, round caps, aria-hidden"
+    }
+  },
+  "components": [
+    {
+      "name": "Plaque (cream)",
+      "kind": "button",
+      "refersTo": "plaque",
+      "description": "The default routed plaque: the neutral action (Add to calendar, phone numbers, Back to the start).",
+      "html": "<a class=\"ds-plaque\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"width:1.35em;height:1.35em;flex:none\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M3 10h18M8 3v4M16 3v4\"/></svg>Add to calendar</a>",
+      "css": ".ds-plaque{display:inline-flex;align-items:center;justify-content:center;gap:0.6rem;min-height:3.25rem;padding:0.7rem 1.3rem;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-weight:700;font-size:1.1rem;line-height:1.2;color:#2f2218;background:#f4e9cf;border:0;border-radius:9px;cursor:pointer;text-decoration:none;text-align:center;box-shadow:inset 0 0 0 2px rgba(74,58,42,0.35),0 3px 0 #2f2218,0 8px 16px -8px rgba(0,0,0,0.5);transition:transform 0.14s cubic-bezier(0.16,1,0.3,1),box-shadow 0.14s cubic-bezier(0.16,1,0.3,1),background-color 0.2s cubic-bezier(0.16,1,0.3,1)}.ds-plaque:hover{background:#fff6dd}.ds-plaque:active{transform:translateY(2px) scale(0.985);box-shadow:inset 0 0 0 2px rgba(74,58,42,0.35),0 1px 0 #2f2218,0 4px 8px -6px rgba(0,0,0,0.5)}.ds-plaque:focus-visible{outline:3px solid #c9782e;outline-offset:3px;box-shadow:0 0 0 7px #f6f1e4;border-radius:6px}"
+    },
+    {
+      "name": "Plaque (blaze)",
+      "kind": "button",
+      "refersTo": "plaque-blaze",
+      "description": "The one primary action in view: Directions on the board, Send to the family on forms.",
+      "html": "<a class=\"ds-plaque ds-plaque--blaze\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"width:1.35em;height:1.35em;flex:none\"><path d=\"M4 12h16M13 5l7 7-7 7\"/></svg>Directions</a>",
+      "css": ".ds-plaque{display:inline-flex;align-items:center;justify-content:center;gap:0.6rem;min-height:3.25rem;padding:0.7rem 1.3rem;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-weight:700;font-size:1.1rem;line-height:1.2;color:#2f2218;background:#f4e9cf;border:0;border-radius:9px;cursor:pointer;text-decoration:none;text-align:center;box-shadow:inset 0 0 0 2px rgba(74,58,42,0.35),0 3px 0 #2f2218,0 8px 16px -8px rgba(0,0,0,0.5);transition:transform 0.14s cubic-bezier(0.16,1,0.3,1),box-shadow 0.14s cubic-bezier(0.16,1,0.3,1),background-color 0.2s cubic-bezier(0.16,1,0.3,1)}.ds-plaque:hover{background:#fff6dd}.ds-plaque:active{transform:translateY(2px) scale(0.985);box-shadow:inset 0 0 0 2px rgba(74,58,42,0.35),0 1px 0 #2f2218,0 4px 8px -6px rgba(0,0,0,0.5)}.ds-plaque:focus-visible{outline:3px solid #c9782e;outline-offset:3px;box-shadow:0 0 0 7px #f6f1e4;border-radius:6px}.ds-plaque--blaze{background:#c9782e;color:#2f2218;box-shadow:inset 0 0 0 2px rgba(47,34,24,0.35),0 3px 0 #2f2218,0 8px 16px -8px rgba(0,0,0,0.5)}.ds-plaque--blaze:hover{background:#d9873b}"
+    },
+    {
+      "name": "Plaque (pine)",
+      "kind": "button",
+      "refersTo": "plaque-pine",
+      "description": "The secondary wayfinding plaque used on Home's section summaries.",
+      "html": "<a class=\"ds-plaque ds-plaque--pine\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"width:1.35em;height:1.35em;flex:none\"><path d=\"M4 12h16M13 5l7 7-7 7\"/></svg>Directions and map</a>",
+      "css": ".ds-plaque{display:inline-flex;align-items:center;justify-content:center;gap:0.6rem;min-height:3.25rem;padding:0.7rem 1.3rem;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-weight:700;font-size:1.1rem;line-height:1.2;color:#2f2218;background:#f4e9cf;border:0;border-radius:9px;cursor:pointer;text-decoration:none;text-align:center;box-shadow:inset 0 0 0 2px rgba(74,58,42,0.35),0 3px 0 #2f2218,0 8px 16px -8px rgba(0,0,0,0.5);transition:transform 0.14s cubic-bezier(0.16,1,0.3,1),box-shadow 0.14s cubic-bezier(0.16,1,0.3,1),background-color 0.2s cubic-bezier(0.16,1,0.3,1)}.ds-plaque:hover{background:#fff6dd}.ds-plaque:active{transform:translateY(2px) scale(0.985);box-shadow:inset 0 0 0 2px rgba(74,58,42,0.35),0 1px 0 #2f2218,0 4px 8px -6px rgba(0,0,0,0.5)}.ds-plaque:focus-visible{outline:3px solid #c9782e;outline-offset:3px;box-shadow:0 0 0 7px #f6f1e4;border-radius:6px}.ds-plaque--pine{background:#2f5d3a;color:#f4e9cf;box-shadow:inset 0 0 0 2px rgba(0,0,0,0.25),0 3px 0 #1e3f28,0 8px 16px -8px rgba(0,0,0,0.5)}.ds-plaque--pine:hover{background:#38704a;color:#fff}"
+    },
+    {
+      "name": "Chip (area filter)",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Lodging area filter; exactly one is pressed at a time.",
+      "html": "<div style=\"display:flex;flex-wrap:wrap;gap:0.5rem\"><button class=\"ds-chip\" type=\"button\" aria-pressed=\"true\">All areas</button><button class=\"ds-chip\" type=\"button\" aria-pressed=\"false\">Closest to the forest</button><button class=\"ds-chip\" type=\"button\" aria-pressed=\"false\">Near Bradley Airport</button></div>",
+      "css": ".ds-chip{min-height:2.9rem;padding:0.45rem 1rem;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-weight:700;font-size:1rem;color:#1e3f28;background:#dfe8dc;border:2px solid #b9cbb6;border-radius:999px;cursor:pointer;transition:transform 0.14s cubic-bezier(0.16,1,0.3,1),background-color 0.2s cubic-bezier(0.16,1,0.3,1)}.ds-chip:hover{background:#d1dfcd}.ds-chip:active{transform:scale(0.96)}.ds-chip[aria-pressed=\"true\"]{background:#2f5d3a;color:#f4e9cf;border-color:#1e3f28}.ds-chip:focus-visible{outline:3px solid #c9782e;outline-offset:3px;box-shadow:0 0 0 7px #f6f1e4}"
+    },
+    {
+      "name": "Text field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Form input with label and hint; invalid state shows a blaze-text error line, never red.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-name\">Your name</label><input id=\"ds-name\" type=\"text\"></div><div class=\"ds-field\"><label for=\"ds-email\">Your email</label><span class=\"ds-hint\">So the family can reach you if anything about the day changes.</span><input id=\"ds-email\" type=\"email\"></div><div class=\"ds-field ds-field--invalid\"><label for=\"ds-mem\">Your memory</label><textarea id=\"ds-mem\" rows=\"3\"></textarea><span class=\"ds-error\">Please write a few words before sending.</span></div>",
+      "css": ".ds-field{margin-bottom:1.1rem;max-width:40rem;font-family:\"Atkinson Hyperlegible\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-size:1.05rem;color:#1f1a14}.ds-field label{display:block;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-weight:700;font-size:1.05rem;margin-bottom:0.35rem}.ds-hint{display:block;color:#4d4338;font-size:1rem;margin-bottom:0.35rem}.ds-field input,.ds-field textarea{width:100%;min-height:3.25rem;padding:0.7rem 0.9rem;font:inherit;font-size:1.1rem;color:#1f1a14;background:#fffdf7;border:2px solid #4a3a2a;border-radius:8px;caret-color:#c9782e;transition:border-color 0.15s cubic-bezier(0.16,1,0.3,1)}.ds-field textarea{min-height:9rem;resize:vertical;line-height:1.5}.ds-field input:focus,.ds-field textarea:focus{border-color:#c9782e;outline:3px solid #c9782e;outline-offset:2px}.ds-field--invalid input,.ds-field--invalid textarea{border-color:#a85f1e;background:#fff5ea}.ds-error{display:block;color:#8a4a12;font-weight:700;margin-top:0.35rem}"
+    },
+    {
+      "name": "Header navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky board strip with wordmark and inline nav; the current page inverts to a cream plaque.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-wordmark\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"3\"/><path d=\"M7 12h9M13 9l3 3-3 3\"/></svg><span>Celebrate Mark</span></a><nav><ul><li><a href=\"#\" aria-current=\"page\">Home</a></li><li><a href=\"#\">Getting there</a></li><li><a href=\"#\">Where to stay</a></li><li><a href=\"#\">Questions</a></li></ul></nav></header>",
+      "css": ".ds-header{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;min-height:4.25rem;padding:0 1rem;background-color:#4a3a2a;background-image:url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='720' height='720'><filter id='g' x='0' y='0' width='100%' height='100%' color-interpolation-filters='sRGB'><feTurbulence type='fractalNoise' baseFrequency='0.004 0.22' numOctaves='4' seed='11' stitchTiles='stitch'/><feColorMatrix type='matrix' values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0.75 0 0 0 -0.3'/></filter><rect width='720' height='720' filter='url(%23g)'/></svg>\");color:#f4e9cf;box-shadow:0 2px 0 #2f2218,0 10px 24px -14px rgba(0,0,0,0.6)}.ds-wordmark{display:inline-flex;align-items:center;gap:0.6rem;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-weight:800;font-size:1.35rem;letter-spacing:-0.01em;color:#f4e9cf;text-decoration:none}.ds-wordmark svg{width:2rem;height:2rem}.ds-wordmark span{text-shadow:0 -1px 0 rgba(0,0,0,0.5)}.ds-header ul{list-style:none;margin:0;padding:0;display:flex;gap:0.2rem}.ds-header nav a{display:block;padding:0.6rem 0.85rem;min-height:3rem;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-weight:600;font-size:1rem;color:#f4e9cf;text-decoration:none;border-radius:8px}.ds-header nav a:hover{background:rgba(0,0,0,0.25);color:#fff}.ds-header nav a[aria-current=\"page\"]{background:#f4e9cf;color:#2f2218}.ds-header a:focus-visible{outline:3px solid #f4e9cf;outline-offset:3px;box-shadow:0 0 0 7px #4a3a2a}"
+    },
+    {
+      "name": "Routed board",
+      "kind": "card",
+      "refersTo": "board",
+      "description": "The one dark field per page: routed pine board with cream letters and a painted inner border.",
+      "html": "<div class=\"ds-board\"><h1 class=\"ds-routed ds-board-h1\">A Celebration of Life for <span class=\"ds-name\">Mark Charles Gustafson</span></h1><p class=\"ds-routed ds-dateblock\"><span class=\"ds-day\">Saturday</span><span class=\"ds-date\">October 10, 2026</span><span class=\"ds-time\">11:00 in the morning</span></p><div class=\"ds-place\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z\"/><circle cx=\"12\" cy=\"10\" r=\"2.5\"/></svg><div><div class=\"ds-routed ds-place-name\">Peoples State Forest picnic shelter</div><div class=\"ds-place-detail\">East River Road, Barkhamsted, Connecticut</div></div></div><div class=\"ds-row\"><a class=\"ds-plaque ds-plaque--blaze\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"width:1.35em;height:1.35em;flex:none\"><path d=\"M4 12h16M13 5l7 7-7 7\"/></svg>Directions</a><a class=\"ds-plaque\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"width:1.35em;height:1.35em;flex:none\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"16\" rx=\"2\"/><path d=\"M3 10h18M8 3v4M16 3v4\"/></svg>Add to calendar</a></div></div>",
+      "css": ".ds-board{position:relative;color:#f4e9cf;background-color:#4a3a2a;background-image:linear-gradient(90deg,rgba(255,255,255,0.04),transparent 30%,rgba(0,0,0,0.05) 70%,rgba(0,0,0,0.12)),url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='720' height='720'><filter id='g' x='0' y='0' width='100%' height='100%' color-interpolation-filters='sRGB'><feTurbulence type='fractalNoise' baseFrequency='0.004 0.22' numOctaves='4' seed='11' stitchTiles='stitch'/><feColorMatrix type='matrix' values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0.75 0 0 0 -0.3'/></filter><rect width='720' height='720' filter='url(%23g)'/></svg>\");border-radius:10px;padding:1.8rem 1.7rem;box-shadow:inset 0 0 0 3px #2f2218,inset 0 0 0 5px #5e4a36,0 2px 4px rgba(31,26,20,0.2),0 18px 40px -16px rgba(31,26,20,0.5);font-family:\"Atkinson Hyperlegible\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-size:1.05rem;line-height:1.55}.ds-board::before{content:\"\";position:absolute;inset:14px;border:2px solid #f4e9cf;border-radius:6px;opacity:0.85;pointer-events:none;box-shadow:inset 0 1px 0 rgba(0,0,0,0.35),0 1px 0 rgba(255,245,220,0.12)}.ds-routed{font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;color:#f4e9cf;text-shadow:0 -1px 0 rgba(0,0,0,0.55),0 1px 0 rgba(255,245,220,0.18);line-height:1.12;letter-spacing:-0.01em;text-wrap:balance}.ds-board-h1{margin:0;font-size:clamp(1.15rem,3.4vw,1.55rem);font-weight:600;letter-spacing:0.01em;opacity:0.95}.ds-name{display:block;font-size:clamp(1.6rem,5.2vw,2.4rem);font-weight:800;margin-top:0.15rem;letter-spacing:-0.015em}.ds-dateblock{margin:1.4rem 0 1.1rem}.ds-day,.ds-time{display:block;font-weight:700;font-size:clamp(1.45rem,5vw,2.2rem)}.ds-date{display:block;font-size:clamp(2.7rem,10.5vw,5.6rem);font-weight:800;line-height:1;letter-spacing:-0.03em;margin:0.15rem 0 0.35rem}.ds-place{display:grid;grid-template-columns:auto 1fr;gap:0.6rem 0.8rem;align-items:start;margin-top:1.1rem;padding-top:1rem;border-top:2px solid rgba(244,233,207,0.35);max-width:40rem}.ds-place svg{width:2.2rem;height:2.2rem;margin-top:0.15rem}.ds-place-name{font-weight:700;font-size:clamp(1.25rem,4.2vw,1.7rem);line-height:1.2}.ds-place-detail{opacity:0.92;margin-top:0.25rem}.ds-row{display:flex;flex-wrap:wrap;gap:0.8rem;margin-top:1.3rem}.ds-row .ds-plaque{flex:1 1 14rem;font-size:1.2rem;min-height:3.6rem}.ds-board .ds-plaque:focus-visible{outline-color:#f4e9cf;box-shadow:0 0 0 7px #4a3a2a}.ds-board .ds-plaque{display:inline-flex;align-items:center;justify-content:center;gap:0.6rem;min-height:3.25rem;padding:0.7rem 1.3rem;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-weight:700;font-size:1.1rem;line-height:1.2;color:#2f2218;background:#f4e9cf;border:0;border-radius:9px;cursor:pointer;text-decoration:none;text-align:center;box-shadow:inset 0 0 0 2px rgba(74,58,42,0.35),0 3px 0 #2f2218,0 8px 16px -8px rgba(0,0,0,0.5);transition:transform 0.14s cubic-bezier(0.16,1,0.3,1),box-shadow 0.14s cubic-bezier(0.16,1,0.3,1),background-color 0.2s cubic-bezier(0.16,1,0.3,1)}.ds-plaque:hover{background:#fff6dd}.ds-plaque:active{transform:translateY(2px) scale(0.985);box-shadow:inset 0 0 0 2px rgba(74,58,42,0.35),0 1px 0 #2f2218,0 4px 8px -6px rgba(0,0,0,0.5)}.ds-plaque:focus-visible{outline:3px solid #c9782e;outline-offset:3px;box-shadow:0 0 0 7px #f6f1e4;border-radius:6px}.ds-plaque--blaze{background:#c9782e;color:#2f2218;box-shadow:inset 0 0 0 2px rgba(47,34,24,0.35),0 3px 0 #2f2218,0 8px 16px -8px rgba(0,0,0,0.5)}.ds-plaque--blaze:hover{background:#d9873b}"
+    },
+    {
+      "name": "Plank heading",
+      "kind": "custom",
+      "refersTo": "plank",
+      "description": "Section heading routed into a short board; pine variant for wayfinding sections. Sits flush, no drop shadow.",
+      "html": "<h2 class=\"ds-h2\"><span class=\"ds-plank\">The day, in short</span></h2><h2 class=\"ds-h2\"><span class=\"ds-plank ds-plank--pine\">Getting there</span></h2>",
+      "css": ".ds-h2{margin:0 0 1rem;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;line-height:1.12;letter-spacing:-0.01em;font-size:clamp(1.7rem,4.5vw,2.3rem);font-weight:700;color:#1e3f28}.ds-plank{display:inline-block;padding:0.55rem 1.1rem 0.6rem;font-size:clamp(1.35rem,4vw,1.8rem);font-weight:700;color:#f4e9cf;background-color:#4a3a2a;background-image:url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='720' height='720'><filter id='g' x='0' y='0' width='100%' height='100%' color-interpolation-filters='sRGB'><feTurbulence type='fractalNoise' baseFrequency='0.004 0.22' numOctaves='4' seed='11' stitchTiles='stitch'/><feColorMatrix type='matrix' values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0.75 0 0 0 -0.3'/></filter><rect width='720' height='720' filter='url(%23g)'/></svg>\");border-radius:7px;box-shadow:inset 0 0 0 2px #2f2218,inset 0 0 0 4px #5e4a36;text-shadow:0 -1px 0 rgba(0,0,0,0.5)}.ds-plank--pine{background-color:#2f5d3a;box-shadow:inset 0 0 0 2px #1e3f28,inset 0 0 0 4px #38704a}"
+    },
+    {
+      "name": "Notice",
+      "kind": "card",
+      "refersTo": "notice",
+      "description": "A sheet pinned under the plexiglass; blaze for must-not-miss, pine for calm help.",
+      "html": "<div class=\"ds-notice ds-notice--blaze\"><h3>If your GPS gets confused</h3><p>Some map apps do not know the shelter by name. Search for <strong>Peoples State Forest, East River Road, Barkhamsted, CT</strong>.</p><div class=\"ds-notice-row\"><a class=\"ds-plaque\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"width:1.35em;height:1.35em;flex:none\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z\"/></svg>Call the park office</a></div></div><div class=\"ds-notice ds-notice--pine\" style=\"margin-top:1rem\"><h3>Closest to the forest</h3><p><strong>Old Riverton Inn</strong>, Riverton, about 10 minutes.</p></div>",
+      "css": ".ds-notice{background:#fffbf1;border:1px solid #cdbf9f;border-radius:8px;padding:1.25rem 1.35rem;max-width:52rem;font-family:\"Atkinson Hyperlegible\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-size:1.05rem;line-height:1.55;color:#1f1a14}.ds-notice--blaze{background:#f7e3cc;border-color:#e2bf93}.ds-notice--pine{background:#dfe8dc;border-color:#b9cbb6}.ds-notice h3{margin:0 0 0.5rem;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-size:1.3rem;font-weight:700;line-height:1.12;letter-spacing:-0.01em;color:#1f1a14}.ds-notice p{margin:0 0 1rem;max-width:66ch}.ds-notice p:last-child{margin-bottom:0}.ds-notice-row{display:flex;flex-wrap:wrap;gap:0.8rem;margin-top:0.9rem}.ds-plaque{display:inline-flex;align-items:center;justify-content:center;gap:0.6rem;min-height:3.25rem;padding:0.7rem 1.3rem;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-weight:700;font-size:1.1rem;line-height:1.2;color:#2f2218;background:#f4e9cf;border:0;border-radius:9px;cursor:pointer;text-decoration:none;text-align:center;box-shadow:inset 0 0 0 2px rgba(74,58,42,0.35),0 3px 0 #2f2218,0 8px 16px -8px rgba(0,0,0,0.5);transition:transform 0.14s cubic-bezier(0.16,1,0.3,1),box-shadow 0.14s cubic-bezier(0.16,1,0.3,1),background-color 0.2s cubic-bezier(0.16,1,0.3,1)}.ds-plaque:hover{background:#fff6dd}.ds-plaque:active{transform:translateY(2px) scale(0.985);box-shadow:inset 0 0 0 2px rgba(74,58,42,0.35),0 1px 0 #2f2218,0 4px 8px -6px rgba(0,0,0,0.5)}.ds-plaque:focus-visible{outline:3px solid #c9782e;outline-offset:3px;box-shadow:0 0 0 7px #f6f1e4;border-radius:6px}"
+    },
+    {
+      "name": "Facts rows",
+      "kind": "custom",
+      "refersTo": "facts",
+      "description": "The day's facts as ruled key/value rows; two columns from 640px.",
+      "html": "<ul class=\"ds-facts\"><li><span class=\"ds-k\">When</span><span class=\"ds-v\">Saturday, October 10, 2026, beginning at 11:00 AM. <small>Come when you can.</small></span></li><li><span class=\"ds-k\">Where</span><span class=\"ds-v\">The picnic shelter at Peoples State Forest, East River Road, Barkhamsted, CT 06063.</span></li><li><span class=\"ds-k\">Parking</span><span class=\"ds-v\">Free for cars with Connecticut plates. Out-of-state plates pay $15 at the gate on weekends.</span></li></ul>",
+      "css": ".ds-facts{list-style:none;margin:0;padding:0;max-width:52rem;border-top:2px solid #4a3a2a;font-family:\"Atkinson Hyperlegible\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;line-height:1.55;color:#1f1a14}.ds-facts li{display:grid;grid-template-columns:1fr;gap:0.15rem 1.5rem;padding:0.95rem 0.25rem;margin:0;border-bottom:1px solid #cdbf9f}.ds-k{font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-weight:700;color:#1e3f28;font-size:1.05rem}.ds-v{font-size:1.1rem}.ds-v small{display:block;margin-top:0.15rem;font-size:1rem;color:#4d4338}@media (min-width:640px){.ds-facts li{grid-template-columns:11rem 1fr;padding:1.05rem 0.5rem}}"
+    },
+    {
+      "name": "Route list",
+      "kind": "custom",
+      "refersTo": "route-step",
+      "description": "Numbered driving steps with a pine circle badge; the last-mile grammar.",
+      "html": "<ol class=\"ds-route\"><li><strong>Turn onto Route 318</strong> at the traffic light in Barkhamsted, signed for Pleasant Valley.</li><li><strong>Cross the steel bridge</strong> over the Farmington River.</li><li><strong>Turn left immediately</strong> after the bridge onto <strong>East River Road</strong>.</li></ol>",
+      "css": ".ds-route{list-style:none;padding:0;margin:0;max-width:52rem;counter-reset:step;font-family:\"Atkinson Hyperlegible\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;line-height:1.55;color:#1f1a14}.ds-route li{position:relative;padding:0.9rem 0 0.9rem 3.4rem;margin:0;border-bottom:1px solid #cdbf9f;font-size:1.1rem}.ds-route li::before{counter-increment:step;content:counter(step);position:absolute;left:0;top:0.85rem;width:2.4rem;height:2.4rem;display:grid;place-items:center;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-weight:800;font-size:1.15rem;color:#f4e9cf;background:#2f5d3a;border-radius:50%;box-shadow:inset 0 0 0 2px #1e3f28,0 2px 0 #1e3f28}.ds-route strong{color:#1e3f28;font-weight:700}"
+    },
+    {
+      "name": "Stay row",
+      "kind": "custom",
+      "refersTo": "stay",
+      "description": "A lodging entry: name, town line, address, and compact call plaques; two-column from 720px.",
+      "html": "<h3 class=\"ds-stay-h\">Closest to the forest <span class=\"ds-distance\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"width:1.3rem;height:1.3rem\"><path d=\"M5 16l1.5-5.5A2 2 0 0 1 8.4 9h7.2a2 2 0 0 1 1.9 1.5L19 16\"/><path d=\"M3 16h18v3H3z\"/><circle cx=\"7\" cy=\"19\" r=\"1.5\"/><circle cx=\"17\" cy=\"19\" r=\"1.5\"/></svg>5 to 15 minutes</span></h3><ul class=\"ds-stay\"><li><span class=\"ds-stay-name\"><a href=\"#\">Old Riverton Inn</a></span><span class=\"ds-town\">Riverton · about 10 minutes · a historic inn with 10 rooms</span><address class=\"ds-addr\">436 East River Road, Riverton, CT 06065</address><span class=\"ds-call\"><a class=\"ds-plaque ds-plaque--sm\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\" style=\"width:1.35em;height:1.35em;flex:none\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z\"/></svg>(860) 379-8678</a></span></li></ul>",
+      "css": ".ds-stay-h{display:flex;align-items:baseline;gap:0.75rem;flex-wrap:wrap;margin:0 0 0.5rem;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-size:1.3rem;font-weight:700;line-height:1.2;color:#1f1a14}.ds-distance{display:inline-flex;align-items:center;gap:0.45rem;font-weight:700;color:#8a4a12;font-size:1rem}.ds-stay{list-style:none;margin:0;padding:0;max-width:56rem;border-top:2px solid #4a3a2a;font-family:\"Atkinson Hyperlegible\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;line-height:1.55;color:#1f1a14}.ds-stay li{display:grid;grid-template-columns:1fr;gap:0.35rem 1.25rem;align-items:center;padding:1rem 0.25rem;margin:0;border-bottom:1px solid #cdbf9f}.ds-stay-name{font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-weight:700;font-size:1.2rem}.ds-stay-name a{color:inherit;display:inline-flex;align-items:center;min-height:2.6rem;text-decoration-thickness:2px;text-underline-offset:0.18em}.ds-town,.ds-addr{color:#4d4338;font-style:normal}.ds-call{display:flex;gap:0.5rem;flex-wrap:wrap}.ds-plaque--sm{min-height:2.9rem;font-size:1rem;padding:0.5rem 1rem}@media (min-width:720px){.ds-stay li{grid-template-columns:1fr auto;grid-template-areas:\"name call\" \"town call\" \"addr call\"}.ds-stay-name{grid-area:name}.ds-town{grid-area:town}.ds-addr{grid-area:addr}.ds-call{grid-area:call;justify-self:end}}.ds-plaque{display:inline-flex;align-items:center;justify-content:center;gap:0.6rem;min-height:3.25rem;padding:0.7rem 1.3rem;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-weight:700;font-size:1.1rem;line-height:1.2;color:#2f2218;background:#f4e9cf;border:0;border-radius:9px;cursor:pointer;text-decoration:none;text-align:center;box-shadow:inset 0 0 0 2px rgba(74,58,42,0.35),0 3px 0 #2f2218,0 8px 16px -8px rgba(0,0,0,0.5);transition:transform 0.14s cubic-bezier(0.16,1,0.3,1),box-shadow 0.14s cubic-bezier(0.16,1,0.3,1),background-color 0.2s cubic-bezier(0.16,1,0.3,1)}.ds-plaque:hover{background:#fff6dd}.ds-plaque:active{transform:translateY(2px) scale(0.985);box-shadow:inset 0 0 0 2px rgba(74,58,42,0.35),0 1px 0 #2f2218,0 4px 8px -6px rgba(0,0,0,0.5)}.ds-plaque:focus-visible{outline:3px solid #c9782e;outline-offset:3px;box-shadow:0 0 0 7px #f6f1e4;border-radius:6px}"
+    },
+    {
+      "name": "FAQ details",
+      "kind": "custom",
+      "refersTo": "faq",
+      "description": "Native details rows; the blaze plus rotates to a cross when open.",
+      "html": "<div class=\"ds-faq\"><details open><summary>When and where, once more?<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg></summary><div class=\"ds-answer\"><p>Saturday, October 10, 2026, beginning at 11:00 AM, at the picnic shelter in Peoples State Forest.</p></div></details><details><summary>Is it outdoors? What if it rains?<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg></summary><div class=\"ds-answer\"><p>Yes. The shelter has a roof, so we gather rain or shine.</p></div></details></div>",
+      "css": ".ds-faq{max-width:52rem;border-top:2px solid #4a3a2a;padding-top:0.25rem;font-family:\"Atkinson Hyperlegible\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;line-height:1.55;color:#1f1a14}.ds-faq details{border-bottom:1px solid #cdbf9f}.ds-faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1rem 0.25rem;min-height:3.5rem;font-family:\"Rubik\",\"Avenir Next\",\"Segoe UI\",system-ui,sans-serif;font-weight:700;font-size:1.15rem;color:#1e3f28}.ds-faq summary::-webkit-details-marker{display:none}.ds-faq summary svg{width:1.6rem;height:1.6rem;flex:none;color:#a85f1e;transition:transform 0.3s cubic-bezier(0.16,1,0.3,1)}.ds-faq details[open] summary svg{transform:rotate(45deg)}.ds-faq summary:hover{text-decoration:underline;text-decoration-thickness:3px;text-underline-offset:0.2em}.ds-faq summary:focus-visible{outline:3px solid #c9782e;outline-offset:3px;border-radius:6px}.ds-answer{padding:0 0.25rem 1.1rem}.ds-answer p{margin:0;max-width:66ch;font-size:1.05rem}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Routed Park Sign",
+    "overview": "The site is the trailhead kiosk a visitor walks past on the day: a routed pine board with cream letters cut into it, saying when and where before anything else, with a sheet of notice paper pinned under the plexiglass for everything that needs reading. It refuses the memorial template of a cream page, a soft portrait, and a candle. The board is dark, sturdy, and warm; the paper is pale and quiet; the only working colors are the pine green of the trail blaze and the blaze orange of the arrow that says go this way.\n\nDensity is low and the type is large because the audience is family and friends in their sixties to eighties, on phones, often grieving. Every fact sits in a ruled row or a plank-headed section; every action is a plaque you can press with a thumb. Motion exists (letters route in, leaves drift down the ridge, the last-mile map draws itself) but it is slow, one-shot, and stops entirely under reduced motion without hiding anything. The voice of the visuals matches the voice of the copy: plain, warm, never cheerful, never urgent.",
+    "keyCharacteristics": [
+      "One dark routed board per page carries the headline facts; everything else reads on notice paper.",
+      "Two working colors only: pine for wayfinding and section variants, blaze for the single primary action in view.",
+      "Rubik at 700 to 800 for anything routed or labelled; Atkinson Hyperlegible for prose, never below 18px.",
+      "Plaques are the only element that lifts and presses; planks, notices, and rows sit flush.",
+      "Inline stroke icons (arrow, pin, calendar, phone, car, plus) are the wayfinding grammar; no icon fonts, no emoji.",
+      "Motion is authored once per element, uses one ease, and is fully removed under `prefers-reduced-motion`."
+    ],
+    "rules": [
+      {
+        "name": "The Two Working Colors Rule",
+        "body": "Pine and blaze are the only chromatic colors that do work. Blaze marks the one primary action in view and the thing you must not miss; pine marks wayfinding, secondary actions, and calm notices. There is no red anywhere, including errors.",
+        "section": "colors"
+      },
+      {
+        "name": "The Cream Letters Rule",
+        "body": "Text on any board surface (header, footer, hero board, plank, action bar) is cream, never white, never ink. Routed text carries the up-and-down text shadow (`0 -1px 0 rgba(0,0,0,0.55), 0 1px 0 rgba(255,245,220,0.18)`) so it reads as cut into the wood.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Board Rule",
+        "body": "A page has one routed board in its main content: the hero sign on Home, the single board on the thank-you and 404 pages, or none on the reading pages. Header, footer, and the phone action bar are the kiosk frame, not additional boards.",
+        "section": "colors"
+      },
+      {
+        "name": "The 18px Floor Rule",
+        "body": "`html { font-size: 18px }` and no rule sets text below 1rem. The floor is a fact of the stylesheet, not a target.",
+        "section": "typography"
+      },
+      {
+        "name": "The No Eyebrow Rule",
+        "body": "Labels are never uppercased or letter-spaced. Section context comes from the plank heading and the lede paragraph beneath it, never from a small tracked caps line above.",
+        "section": "typography"
+      },
+      {
+        "name": "The Balanced Heading Rule",
+        "body": "All headings use `text-wrap: balance` and negative tracking (-0.01em); the display date tightens to -0.03em.",
+        "section": "typography"
+      },
+      {
+        "name": "The Plaque Lift Rule",
+        "body": "Plaques are the only interactive element that lifts and presses. Chips scale down (0.96) on press but never cast a shadow; nav links and choice rows change fill only.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Planks Sit Flush Rule",
+        "body": "A plank heading is framed by inset lines and never carries a drop shadow. If a heading appears to float, it is wrong.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep the root at 18px and never set text below 1rem; `small` and `.fine` are the floor.",
+      "**Do** give every tappable thing at least 44px: plaques 3.25rem, chips and compact plaques 2.9rem, nav links 3rem, FAQ summaries 3.5rem, footer links 2.75rem, lodging name links 2.6rem.",
+      "**Do** put one routed board in a page's main content at most, and put the when-and-where facts on it.",
+      "**Do** use blaze for exactly one primary plaque per view and pine for the secondary; every other plaque is cream.",
+      "**Do** keep text on board surfaces cream, with the routed text shadow on Rubik headings.",
+      "**Do** frame planks with inset lines only, and let plaques be the only element with a base and a cast shadow.",
+      "**Do** head every paper section with a plank (or a pine plank for wayfinding) followed by a plain lede in ink 2.",
+      "**Do** lay facts out as ruled key/value rows, and state a fact as unknown (\"the family will update this\") when it is unknown.",
+      "**Do** use inline stroke SVG icons (24-unit, 2 to 2.4 stroke, round caps) beside plaque text and in wayfinding; keep them `aria-hidden`.",
+      "**Do** gate every animation on `.js`, use `--ease` for all of it, and give each element one authored entrance.",
+      "**Do** keep every state change legible under reduced motion; remove travel, not information.",
+      "**Do** show a visible 3px blaze focus ring on paper and a cream ring on board surfaces."
+    ],
+    "donts": [
+      "**Don't** use red anywhere; invalid fields and errors are blaze deep and blaze text.",
+      "**Don't** add eyebrows, kickers, or uppercase tracked labels above headings.",
+      "**Don't** use exclamation points, countdowns, urgency language, or alarm colors.",
+      "**Don't** put white text on the board or ink text on the board; it is cream or nothing.",
+      "**Don't** give planks, notices, chips, rows, or fields a drop shadow.",
+      "**Don't** introduce a second dark field in main content beside the board; reading happens on paper.",
+      "**Don't** use icon fonts, emoji, or raster icons; the only rasters are the ridge, the share card, and the touch icon.",
+      "**Don't** photograph the wood; the grain is the authored `grain.svg` wash.",
+      "**Don't** fabricate a photograph, quote, or fact; the portrait slot stays a dashed placeholder until the family supplies an image.",
+      "**Don't** set body prose wider than 66ch or ruled lists wider than 52rem (56rem for lodging).",
+      "**Don't** animate anything on a loop except the ridge leaves and mist, and stop those when the ridge is off screen."
+    ]
+  }
+}

@@ -1,0 +1,1073 @@
+{
+  "mobile:index.html": {
+    "overflow": false,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 198,
+        "h": 32,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 275,
+        "h": 22,
+        "text": "Step-by-step directions and a "
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-8678"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 137,
+        "h": 40,
+        "text": "(860) 379-1075"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "mobile:directions.html": {
+    "overflow": false,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 198,
+        "h": 32,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 147,
+        "h": 41,
+        "text": "(860) 379-2469"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 93,
+        "h": 25,
+        "text": "RSVP form"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 147,
+        "h": 41,
+        "text": "(860) 379-2469"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "mobile:stay.html": {
+    "overflow": false,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 198,
+        "h": 32,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "mobile:mark.html": {
+    "overflow": false,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 198,
+        "h": 32,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "mobile:share.html": {
+    "overflow": false,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 198,
+        "h": 32,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 25,
+        "h": 25,
+        "text": ""
+      },
+      {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 25,
+        "h": 25,
+        "text": ""
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "mobile:questions.html": {
+    "overflow": false,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 198,
+        "h": 32,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 93,
+        "h": 25,
+        "text": "RSVP form"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 89,
+        "h": 23,
+        "text": "RSVP form"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 182,
+        "h": 23,
+        "text": "Share a memory page"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 83,
+        "h": 23,
+        "text": "directions"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 208,
+        "h": 23,
+        "text": "Share a memory of Mark."
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 89,
+        "h": 23,
+        "text": "RSVP form"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "mobile:thanks.html": {
+    "overflow": false,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 198,
+        "h": 32,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "mobile:404.html": {
+    "overflow": false,
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 198,
+        "h": 32,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "tablet:index.html": {
+    "overflow": false,
+    "scrollWidth": 820,
+    "innerWidth": 820,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 275,
+        "h": 22,
+        "text": "Step-by-step directions and a "
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 361,
+        "h": 22,
+        "text": "Places to stay, from Riverton "
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-8678"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 137,
+        "h": 40,
+        "text": "(860) 379-1075"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "tablet:directions.html": {
+    "overflow": false,
+    "scrollWidth": 820,
+    "innerWidth": 820,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 123,
+        "h": 22,
+        "text": "park map (PDF)"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 147,
+        "h": 41,
+        "text": "(860) 379-2469"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 93,
+        "h": 25,
+        "text": "RSVP form"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 147,
+        "h": 41,
+        "text": "(860) 379-2469"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 319,
+        "h": 25,
+        "text": "Peoples State Forest on ctpark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "tablet:stay.html": {
+    "overflow": false,
+    "scrollWidth": 820,
+    "innerWidth": 820,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "tablet:mark.html": {
+    "overflow": false,
+    "scrollWidth": 820,
+    "innerWidth": 820,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 322,
+        "h": 25,
+        "text": "send it on the Share a memory "
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "tablet:share.html": {
+    "overflow": false,
+    "scrollWidth": 820,
+    "innerWidth": 820,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 25,
+        "h": 25,
+        "text": ""
+      },
+      {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 25,
+        "h": 25,
+        "text": ""
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "tablet:questions.html": {
+    "overflow": false,
+    "scrollWidth": 820,
+    "innerWidth": 820,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 93,
+        "h": 25,
+        "text": "RSVP form"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 163,
+        "h": 23,
+        "text": "Directions are here."
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 89,
+        "h": 23,
+        "text": "RSVP form"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 83,
+        "h": 23,
+        "text": "directions"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 208,
+        "h": 23,
+        "text": "Share a memory of Mark."
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 89,
+        "h": 23,
+        "text": "RSVP form"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "tablet:thanks.html": {
+    "overflow": false,
+    "scrollWidth": 820,
+    "innerWidth": 820,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "tablet:404.html": {
+    "overflow": false,
+    "scrollWidth": 820,
+    "innerWidth": 820,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "desktop:index.html": {
+    "overflow": false,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 275,
+        "h": 22,
+        "text": "Step-by-step directions and a "
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 361,
+        "h": 22,
+        "text": "Places to stay, from Riverton "
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-8678"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 137,
+        "h": 40,
+        "text": "(860) 379-1075"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "desktop:directions.html": {
+    "overflow": false,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 123,
+        "h": 22,
+        "text": "park map (PDF)"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 147,
+        "h": 41,
+        "text": "(860) 379-2469"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 93,
+        "h": 25,
+        "text": "RSVP form"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 147,
+        "h": 41,
+        "text": "(860) 379-2469"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 319,
+        "h": 25,
+        "text": "Peoples State Forest on ctpark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "desktop:stay.html": {
+    "overflow": false,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "desktop:mark.html": {
+    "overflow": false,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 322,
+        "h": 25,
+        "text": "send it on the Share a memory "
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "desktop:share.html": {
+    "overflow": false,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 25,
+        "h": 25,
+        "text": ""
+      },
+      {
+        "tag": "INPUT",
+        "cls": "",
+        "w": 25,
+        "h": 25,
+        "text": ""
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "desktop:questions.html": {
+    "overflow": false,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 93,
+        "h": 25,
+        "text": "RSVP form"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 163,
+        "h": 23,
+        "text": "Directions are here."
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 89,
+        "h": 23,
+        "text": "RSVP form"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 182,
+        "h": 23,
+        "text": "Share a memory page"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 83,
+        "h": 23,
+        "text": "directions"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 208,
+        "h": 23,
+        "text": "Share a memory of Mark."
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 89,
+        "h": 23,
+        "text": "RSVP form"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "desktop:thanks.html": {
+    "overflow": false,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "desktop:404.html": {
+    "overflow": false,
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "smallText": [],
+    "smallTargets": [
+      {
+        "tag": "A",
+        "cls": "wordmark",
+        "w": 233,
+        "h": 38,
+        "text": "Celebrate Mark"
+      },
+      {
+        "tag": "A",
+        "cls": "",
+        "w": 140,
+        "h": 40,
+        "text": "(860) 379-2469"
+      }
+    ],
+    "missingAlt": [],
+    "errors": []
+  },
+  "320:index.html": {
+    "overflow": false,
+    "scrollWidth": 320,
+    "innerWidth": 320,
+    "smallTargets": 5
+  },
+  "320:directions.html": {
+    "overflow": false,
+    "scrollWidth": 320,
+    "innerWidth": 320,
+    "smallTargets": 6
+  },
+  "320:stay.html": {
+    "overflow": false,
+    "scrollWidth": 320,
+    "innerWidth": 320,
+    "smallTargets": 2
+  },
+  "320:mark.html": {
+    "overflow": false,
+    "scrollWidth": 320,
+    "innerWidth": 320,
+    "smallTargets": 2
+  },
+  "320:share.html": {
+    "overflow": false,
+    "scrollWidth": 320,
+    "innerWidth": 320,
+    "smallTargets": 4
+  },
+  "320:questions.html": {
+    "overflow": false,
+    "scrollWidth": 320,
+    "innerWidth": 320,
+    "smallTargets": 10
+  },
+  "320:thanks.html": {
+    "overflow": false,
+    "scrollWidth": 320,
+    "innerWidth": 320,
+    "smallTargets": 2
+  },
+  "320:404.html": {
+    "overflow": false,
+    "scrollWidth": 320,
+    "innerWidth": 320,
+    "smallTargets": 2
+  },
+  "1920:index.html": {
+    "overflow": false,
+    "scrollWidth": 1920,
+    "innerWidth": 1920,
+    "smallTargets": 6
+  },
+  "1920:directions.html": {
+    "overflow": false,
+    "scrollWidth": 1920,
+    "innerWidth": 1920,
+    "smallTargets": 7
+  },
+  "1920:stay.html": {
+    "overflow": false,
+    "scrollWidth": 1920,
+    "innerWidth": 1920,
+    "smallTargets": 2
+  },
+  "1920:mark.html": {
+    "overflow": false,
+    "scrollWidth": 1920,
+    "innerWidth": 1920,
+    "smallTargets": 3
+  },
+  "1920:share.html": {
+    "overflow": false,
+    "scrollWidth": 1920,
+    "innerWidth": 1920,
+    "smallTargets": 4
+  },
+  "1920:questions.html": {
+    "overflow": false,
+    "scrollWidth": 1920,
+    "innerWidth": 1920,
+    "smallTargets": 11
+  },
+  "1920:thanks.html": {
+    "overflow": false,
+    "scrollWidth": 1920,
+    "innerWidth": 1920,
+    "smallTargets": 2
+  },
+  "1920:404.html": {
+    "overflow": false,
+    "scrollWidth": 1920,
+    "innerWidth": 1920,
+    "smallTargets": 2
+  }
+}

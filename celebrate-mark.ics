@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//celebratemark.life//Celebration of Life//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:celebration-of-life-2026-10-10@celebratemark.life
+DTSTAMP:20260903T170000Z
+DTSTART;TZID=America/New_York:20261010T110000
+DTEND;TZID=America/New_York:20261010T150000
+SUMMARY:Celebration of Life for Mark Gustafson
+LOCATION:Peoples State Forest picnic shelter\, East River Road\, Barkhamsted\, CT 06063
+GEO:41.92333;-72.99833
+DESCRIPTION:A Celebration of Life for Mark Charles Gustafson. From Route 44\, take Route 318 in Barkhamsted\, cross the steel bridge\, immediate left onto East River Road\, about 1 mile up on the left. GPS 41.92333\, -72.99833. Park office (860) 379-2469. Details: https://celebratemark.life
+URL:https://celebratemark.life/
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mark's celebration of life is tomorrow at 11 AM
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
