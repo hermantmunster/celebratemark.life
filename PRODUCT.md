@@ -22,8 +22,8 @@ from out of state and need a bed for the weekend. Their job: learn when and wher
 celebration is, get there on the day, book a place to stay, tell the family they are
 coming, and share a memory.
 
-Secondary: the family (Martha, Alex and Kristyn, Molly, Katie), who will edit the text
-and paste in the obituary. They are not developers.
+Secondary: the family (Martha, Alex and Kristyn, Molly and Sam, Katie), who will edit the
+text. They are not developers.
 
 ## Product Purpose
 
@@ -77,12 +77,13 @@ and phone are recorded in the site content file.
   edit without touching layout.
 - No photographs of Mark exist in this workspace. The site ships with a clearly marked
   place for them and instructions; nothing is fabricated to stand in.
-- No obituary text exists yet. The "His life" page carries a short, factual life note
-  built only from verified facts and an obvious paste-in block for the family's
-  obituary.
-- Undecided: whether food will be served, whether there is a program, whether flowers or
-  donations are requested. The Questions page states these plainly as "the family will
-  update this" rather than inventing answers.
+- The family's obituary (Hartford Courant, September 4, 2026) is carried verbatim on
+  the "Mark" page between the OBITUARY BEGINS / ENDS comments.
+- In lieu of flowers the obituary asks for donations to Big Brothers Big Sisters of
+  Connecticut; this is stated once on Home and on the Questions page.
+- Undecided: whether food will be served and whether there is a program. The Questions
+  page states these plainly as "the family will update this" rather than inventing
+  answers.
 
 ## Brand Commitments
 
@@ -102,12 +103,24 @@ and phone are recorded in the site content file.
   Hartford, for many years, personally designing, installing, and tuning systems in
   offices across the Northeast and beyond. Wife Martha (a teacher). Son Alex (Mark
   Alexander) and his wife Kristyn. Daughters Molly and Katie.
+- Obituary facts (Hartford Courant, published September 4, 2026, fetched the same day):
+  born November 14, 1959 in Ashtabula, Ohio, to Laurena (Fraser) Kihlstrom and Charles
+  "Chuck" Gustafson; second of four children (Craig, Brian, Holly Bensen); B.S. in
+  Communications, Ohio University, 1982, where he met Martha Wright Gustafson, his wife
+  of 41 years. Children: Mark Alexander "Alex" (Dana Point, CA; wife Kristyn Roth
+  Gustafson), Molly Gustafson Barstow (Boulder, CO; husband Samuel Barstow), Kathryn
+  Jane "Katie" (Portland, OR). Granddaughters Avery and Blair Gustafson, Isla and
+  Laurena Barstow. Sold and installed sound masking across New England and the
+  Tri-State area. Loved dogs, fly fishing, walks in the woods, golf, travel, movies, and
+  hosting around his grill. A dedicated Big Brother. The obituary gives the celebration
+  date only (October 10) and points to this site; the time and place remain the
+  family's confirmation above.
 - Venue facts verified from ctparks.com, portal.ct.gov (DEEP), and ReserveAmerica on
   2026-09-03.
 - Lodging and dining facts verified from property sites and directories on 2026-09-03;
   prices are deliberately not stated.
-- Absent, must not be fabricated: birth date and birthplace, obituary text,
-  photographs, quotes from Mark, program details, catering.
+- Absent, must not be fabricated: photographs, quotes from Mark, program details,
+  catering.
 
 ## Product Principles
 
