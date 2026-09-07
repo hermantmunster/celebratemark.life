@@ -51,6 +51,17 @@ unless you added it for email.
   greyed out until the certificate exists).
 - Visit https://celebratemark.life. Done.
 
+## Done on September 6, 2026
+
+GoDaddy had the four `A` records and the `www` CNAME right, but GitHub was still serving its generic
+`*.github.io` certificate, so browsers warned "not secure". GitHub had never issued a certificate for
+the domain. Removing the custom domain from the Pages settings and adding it straight back made GitHub
+request one; it was approved within a minute, and **Enforce HTTPS** is now on. The certificate covers
+`celebratemark.life` and `www.celebratemark.life`, and GitHub renews it by itself before it expires.
+
+If the warning ever comes back: GitHub → repository → Settings → Pages → Custom domain. Clear the
+domain, Save, type `celebratemark.life` again, Save, wait a minute, then tick **Enforce HTTPS**.
+
 ## Optional: protect the domain
 
 On https://github.com/settings/pages, "Add a domain" lets you verify celebratemark.life with a
