@@ -15,7 +15,7 @@ The site updates within a minute or two.
 |---|---|
 | The time or date | Search every `.html` file for `11:00` and `October 10`. It appears in the hero on `index.html`, the footer of every page, `celebrate-mark.ics`, and the calendar links. |
 | The obituary | `mark.html`, between the lines `OBITUARY BEGINS` and `OBITUARY ENDS`. Use one `<p>…</p>` per paragraph. |
-| A photo of Mark | Put `mark.jpg` in `assets/` and follow the comment in `mark.html` above the photo slot. |
+| The photo of Mark | Save the new picture over `assets/mark.jpg`, keeping that exact name. Portrait shape works best; it is shown in a 4:5 frame. |
 | Where RSVPs and memories go | `share.html`: each form's `data-mail` (main recipient) and `data-cc` (copy) attributes hold the two family addresses base64-encoded so they are not readable in the page. To change one, encode the new address (on a Mac: `echo -n new@example.com \| base64`) and paste the result into both forms. |
 | Food, program, flowers, donations | `questions.html`, the answers that say "the family will update this". |
 | Places to stay | `stay.html`. Copy an existing `<li>…</li>` block and change the words. |
