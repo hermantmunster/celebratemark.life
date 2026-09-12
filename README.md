@@ -1,7 +1,7 @@
 # celebratemark.life
 
 The website for the Celebration of Life for Mark Charles Gustafson.
-Saturday, October 10, 2026 at 11:00 AM, the pavilion at Peoples Forest, Barkhamsted, CT.
+Saturday, October 10, 2026, 10 AM to 1 PM, the pavilion at Peoples Forest, Barkhamsted, CT.
 
 It is plain HTML, CSS, and a little JavaScript. There is nothing to install or build.
 GitHub Pages serves it at https://celebratemark.life.
@@ -13,7 +13,7 @@ The site updates within a minute or two.
 
 | To change | Edit |
 |---|---|
-| The time or date | Search every `.html` file for `11:00` and `October 10`. It appears in the hero on `index.html`, the footer of every page, `celebrate-mark.ics`, and the calendar links. |
+| The time or date | Search every `.html` file for `10 AM to 1 PM` and `October 10`. It appears in the hero on `index.html`, the footer of every page, `celebrate-mark.ics`, and the calendar links. |
 | The obituary | `mark.html`, between the lines `OBITUARY BEGINS` and `OBITUARY ENDS`. Use one `<p>…</p>` per paragraph. |
 | The photo of Mark | Save the new picture over `assets/mark.jpg`, keeping that exact name. Portrait shape works best; it is shown in a 4:5 frame. |
 | Where RSVPs and memories go | `share.html`: each form's `data-mail` (main recipient) and `data-cc` (copy) attributes hold the two family addresses base64-encoded so they are not readable in the page. To change one, encode the new address (on a Mac: `echo -n new@example.com \| base64`) and paste the result into both forms. |

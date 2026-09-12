@@ -44,7 +44,7 @@ getting people there and holding them well once they arrive.
 ## Operating Context
 
 **The event (confirmed by the family):**
-- Saturday, October 10, 2026, beginning at 11:00 AM.
+- Saturday, October 10, 2026, 10 AM to 1 PM.
 - the pavilion at Peoples Forest, East River Road, Pleasant Valley section of
   Barkhamsted, CT 06063. GPS 41.92333, -72.99833. Park phone (860) 379-2469.
 - Directions from Route 44: take Route 318 in Barkhamsted, cross the steel bridge over
