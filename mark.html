@@ -37,9 +37,9 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="directions.html">Getting there</a></li>
-        <li><a href="stay.html">Where to stay</a></li>
+        <li><a href="travel.html">Travel</a></li>
         <li><a href="mark.html" aria-current="page">Mark</a></li>
-        <li><a href="share.html">Share a memory</a></li>
+        <li><a href="rsvp.html">RSVP</a></li>
         <li><a href="questions.html">Questions</a></li>
       </ul>
     </nav>
@@ -86,23 +86,105 @@
           <p class="fine">Published in the <a href="https://www.courant.com/obituaries/mark-charles-gustafson/">Hartford Courant</a>, September 4, 2026.</p>
           <!-- ===== OBITUARY ENDS ===== -->
 
-          <div class="notice notice--pine mt-2">
-            <h3>Photographs and stories</h3>
-            <p>The family is gathering photographs of Mark. Have one, or a story to be read aloud? <a href="share.html#memory">Tell us here</a> and the family will be in touch. Stories stay private unless you say they may be shared.</p>
-          </div>
-
-          <div class="plaque-row">
-            <a class="plaque plaque--blaze" href="share.html#memory">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></svg>
-              Share a memory of Mark
-            </a>
-            <a class="plaque" href="index.html">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
-              When and where
-            </a>
-          </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="memory-title" id="memory">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="memory-title"><span class="plank plank--pine">Share a memory</span></h2>
+        <p>A story, a thing he said, a job you did together.</p>
+      </div>
+
+      <form class="form" action="https://formsubmit.co/" method="POST" data-check data-mail="bW9sbHlnLmJhcnN0b3dAZ21haWwuY29t" data-cc="YWxleGd1c3RhZnNvbkBtZS5jb20=" novalidate>
+        <input type="hidden" name="_subject" value="A memory of Mark">
+        <input type="hidden" name="_cc" value="">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://celebratemark.life/thanks.html">
+        <input type="hidden" name="Form" value="Memory">
+        <div class="honey" aria-hidden="true"><label>Leave this empty<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+
+        <div class="field">
+          <label for="mem-name">Your name</label>
+          <input id="mem-name" name="Name" type="text" autocomplete="name" required aria-required="true">
+          <span class="error">Please tell us your name.</span>
+        </div>
+        <div class="field">
+          <label for="mem-rel">How you knew him <span class="fine">(optional)</span></label>
+          <input id="mem-rel" name="How you knew Mark" type="text" placeholder="neighbor, cousin, worked together at…">
+        </div>
+        <div class="field">
+          <label for="mem-email">Your email</label>
+          <input id="mem-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-required="true">
+          <span class="error">Please enter a valid email.</span>
+        </div>
+        <div class="field">
+          <label for="mem-text">Your memory</label>
+          <textarea id="mem-text" name="Memory" rows="7" required aria-required="true"></textarea>
+          <span class="error">Please write a few words.</span>
+        </div>
+        <fieldset>
+          <legend>May we share this?</legend>
+          <div class="choices">
+            <label class="choice"><input type="radio" name="Permission" value="Yes, read it aloud or share it" checked> Yes, read it aloud or share it</label>
+            <label class="choice"><input type="radio" name="Permission" value="Family only"> Family only</label>
+          </div>
+        </fieldset>
+
+        <button class="plaque plaque--pine" type="submit">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></svg>
+          <span class="label">Send</span>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="photos-title" id="photos">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="photos-title"><span class="plank">Photos and videos</span></h2>
+        <p>Good pictures and clips of Mark, for the day and for the family.</p>
+      </div>
+      <form class="form" action="https://formsubmit.co/" method="POST" enctype="multipart/form-data" data-check data-files data-mail="bW9sbHlnLmJhcnN0b3dAZ21haWwuY29t" data-cc="YWxleGd1c3RhZnNvbkBtZS5jb20=" novalidate>
+        <input type="hidden" name="_subject" value="Photos of Mark">
+        <input type="hidden" name="_cc" value="">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://celebratemark.life/thanks.html">
+        <input type="hidden" name="Form" value="Photos">
+        <div class="honey" aria-hidden="true"><label>Leave this empty<input type="text" name="_honey" tabindex="-1" autocomplete="off"></label></div>
+        <div class="field">
+          <label for="ph-name">Your name</label>
+          <input id="ph-name" name="Name" type="text" autocomplete="name" required aria-required="true">
+          <span class="error">Please tell us your name.</span>
+        </div>
+        <div class="field">
+          <label for="ph-email">Your email</label>
+          <input id="ph-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-required="true">
+          <span class="error">Please enter a valid email.</span>
+        </div>
+        <div class="field" data-media>
+          <label for="ph-files">Photos or short videos</label>
+          <span class="hint">Up to 5 MB per send. Photos are resized to fit.</span>
+          <input id="ph-files" name="Upload" type="file" accept="image/*,video/*" multiple>
+          <span class="error" data-media-error>Add a photo, a video, or a link.</span>
+        </div>
+        <div class="field">
+          <label for="ph-link">Or a link <span class="fine">(for longer videos or albums)</span></label>
+          <input id="ph-link" name="Link" type="url" inputmode="url" placeholder="Google Photos, iCloud, or Dropbox link">
+        </div>
+        <div class="field">
+          <label for="ph-note">About them <span class="fine">(optional)</span></label>
+          <textarea id="ph-note" name="About the photos" rows="3"></textarea>
+        </div>
+        <button class="plaque plaque--blaze" type="submit">
+          <span class="label">Send</span>
+        </button>
+        <p class="form-note fine">More to send? Send again.</p>
+      </form>
     </div>
   </section>
 
@@ -116,9 +198,9 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="directions.html">Getting there</a></li>
-        <li><a href="stay.html">Where to stay</a></li>
+        <li><a href="travel.html">Travel</a></li>
         <li><a href="mark.html">Mark</a></li>
-        <li><a href="share.html">Share a memory</a></li>
+        <li><a href="rsvp.html">RSVP</a></li>
         <li><a href="questions.html">Questions</a></li>
       </ul>
     </nav>
@@ -126,6 +208,6 @@
   </div>
 </footer>
 
-<script src="assets/site.js" defer></script>
+<script src="assets/site.js?v=3" defer></script>
 </body>
 </html>

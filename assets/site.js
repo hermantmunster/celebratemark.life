@@ -124,6 +124,36 @@
     });
   }
 
+  /* Uploads: FormSubmit rejects a send much over 5 MB, so photos are resized in the browser */
+  var MAX_BYTES = 5 * 1024 * 1024, MAX_EDGE = 2400, SHRINK_OVER = 900 * 1024;
+  function mb(n) { return (n / 1048576).toFixed(1); }
+  function setMediaError(field, msg) {
+    var err = field.querySelector('[data-media-error]');
+    if (err && msg) err.textContent = msg;
+    field.classList.toggle('invalid', !!msg);
+  }
+  function shrink(file) {
+    return new Promise(function (resolve) {
+      if (!/^image\/(jpeg|png|webp|heic|heif)$/i.test(file.type) || file.size <= SHRINK_OVER) return resolve(file);
+      var url = URL.createObjectURL(file), img = new Image();
+      img.onload = function () {
+        var scale = Math.min(1, MAX_EDGE / Math.max(img.naturalWidth, img.naturalHeight));
+        var c = doc.createElement('canvas');
+        c.width = Math.round(img.naturalWidth * scale); c.height = Math.round(img.naturalHeight * scale);
+        c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+        URL.revokeObjectURL(url);
+        c.toBlob(function (blob) {
+          if (!blob || blob.size >= file.size) return resolve(file);
+          var name = file.name.replace(/\.[^.]+$/, '') + '.jpg';
+          try { resolve(new File([blob], name, { type: 'image/jpeg' })); } catch (e) { resolve(file); }
+        }, 'image/jpeg', 0.85);
+      };
+      img.onerror = function () { URL.revokeObjectURL(url); resolve(file); };
+      img.src = url;
+    });
+  }
+  function shrinkAll(files) { return Promise.all(files.map(shrink)); }
+
   /* Forms: gentle checks, and the thank-you address follows wherever the site is hosted */
   doc.querySelectorAll('form[data-check]').forEach(function (form) {
     try {
@@ -145,14 +175,58 @@
         input.setAttribute('aria-invalid', bad ? 'true' : 'false');
         if (bad) { ok = false; if (!first) first = input; }
       });
+      var media = form.hasAttribute('data-files') ? form.querySelector('[data-media]') : null;
+      var picker = media ? media.querySelector('input[type="file"]') : null;
+      var link = form.querySelector('input[name="Link"]');
+      if (media) {
+        var none = !(picker && picker.files.length) && !(link && link.value.trim());
+        setMediaError(media, none ? 'Add a photo, a video, or a link.' : '');
+        if (none) { ok = false; if (!first) first = picker; }
+      }
       if (!ok) {
         e.preventDefault();
         if (first) first.focus();
         return;
       }
       var btn = form.querySelector('button[type="submit"]');
-      if (btn) { btn.disabled = true; btn.querySelector('.label') ? (btn.querySelector('.label').textContent = 'Sending…') : (btn.textContent = 'Sending…'); }
+      var label = btn && (btn.querySelector('.label') || btn);
+      var idle = label ? label.textContent : '';
+      if (btn) { btn.disabled = true; label.textContent = 'Sending…'; }
+      if (!picker || !picker.files.length) return;
+
+      /* Photos and videos: shrink photos, keep the total under FormSubmit's limit,
+         and give every file its own field so none is dropped. */
+      e.preventDefault();
+      shrinkAll(Array.prototype.slice.call(picker.files)).then(function (files) {
+        var total = files.reduce(function (n, f) { return n + f.size; }, 0);
+        if (total > MAX_BYTES) {
+          setMediaError(media, 'Too large to send (' + mb(total) + ' MB, limit 5 MB). Send fewer at a time, or share a link below.');
+          if (btn) { btn.disabled = false; label.textContent = idle; }
+          picker.focus();
+          return;
+        }
+        if (typeof DataTransfer === 'function') {
+          form.querySelectorAll('input[data-upload]').forEach(function (n) { n.remove(); });
+          files.forEach(function (f, k) {
+            var dt = new DataTransfer(); dt.items.add(f);
+            var input = doc.createElement('input');
+            input.type = 'file'; input.name = 'File ' + (k + 1); input.hidden = true;
+            input.setAttribute('data-upload', '');
+            input.files = dt.files;
+            form.appendChild(input);
+          });
+          picker.disabled = true;
+        }
+        form.submit();
+      });
     });
+    var mediaField = form.querySelector('[data-media]');
+    if (mediaField) {
+      form.querySelectorAll('[data-media] input[type="file"], input[name="Link"]').forEach(function (input) {
+        input.addEventListener('change', function () { setMediaError(mediaField, ''); });
+        input.addEventListener('input', function () { setMediaError(mediaField, ''); });
+      });
+    }
     form.querySelectorAll('[required]').forEach(function (input) {
       input.addEventListener('input', function () {
         var field = input.closest('.field');
