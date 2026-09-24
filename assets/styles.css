@@ -220,6 +220,11 @@ address { font-style: normal; }
 .hero .place-detail { font-size: 1.05rem; color: var(--cream); opacity: 0.92; margin-top: 0.25rem; }
 .hero .plaque-row { margin-top: 1.3rem; }
 .hero .plaque { font-size: 1.2rem; min-height: 3.6rem; }
+.hero-board { display: grid; gap: 1.5rem; align-items: center; }
+.hero-photo { margin: 0; width: 100%; max-width: 12rem; aspect-ratio: 4 / 5; border-radius: 8px; overflow: hidden; border: 3px solid var(--cream); box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35); position: relative; z-index: 1; }
+.hero-photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 28%; }
+.hero-details { position: relative; z-index: 1; min-width: 0; }
+@media (min-width: 720px) { .hero-board { grid-template-columns: minmax(13rem, 19rem) 1fr; gap: 2.5rem; } .hero-photo { max-width: none; } }
 
 /* Authored moment: the letters are routed in, one line after the next */
 .cut { clip-path: inset(0 0 0 0); }
