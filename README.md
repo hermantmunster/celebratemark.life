@@ -30,7 +30,7 @@ Uploads are limited to about 5 MB per send; the site shrinks photos first and as
 ## Files
 
 - `index.html` – the sign: when and where, and the short version of everything
-- `directions.html` – the last mile, a sketch map, routes from every direction, parking
+- `directions.html` (redirects to the Getting there section of `travel.html`) – the last mile, a sketch map, routes from every direction, parking
 - `travel.html` – where to stay, Mark's favorite restaurants, things to do, with kids
 - `mark.html` – about Mark, family, the obituary, share a memory, photos and videos
 - `rsvp.html` – RSVP form (`share.html` and `stay.html` redirect for old links)
